@@ -1,0 +1,39 @@
+header {
+  background-color: darkgray;
+}
+
+.nav {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.nav img, .nav h2 {
+  display: inline-block;
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+.nav h2 {
+  font-size: 1em;
+  position: relative;
+  bottom: 27px;
+  font-weight: normal;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+main img {
+  margin: 0 auto;
+}
+
+#threeImages .leftImage {
+  margin-right: 26px;
+}
+
+#threeImages .rightImage {
+  margin-left: 26px;
+}
