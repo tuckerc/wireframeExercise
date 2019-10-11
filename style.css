@@ -6,6 +6,7 @@ header {
   width: 960px;
   padding: 20px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .nav img, .nav h2 {
@@ -24,10 +25,12 @@ header {
 main {
   width: 960px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 main img {
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #threeImages .leftImage {
@@ -36,4 +39,44 @@ main img {
 
 #threeImages .rightImage {
   margin-left: 26px;
+}
+
+.photoLeftTextRight {
+  height: 400px;
+}
+
+.photoLeftTextRight div, .photoLeftTextRight img {
+  display: inline;
+  margin: 0px;
+}
+
+.photoLeftTextRight div {
+  float: right;
+}
+
+.photoLeftTextRight img {
+  float: left;
+}
+
+p {
+  width: 450px;
+  height: 350px;
+  overflow: scroll;
+  display: block;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+button {
+  display: block;
+}
+
+footer {
+  height: 70px;
+  background-color: #DDD;
 }
