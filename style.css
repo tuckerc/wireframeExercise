@@ -30,15 +30,25 @@ main {
 
 main img {
   margin: 0 auto;
-  margin-bottom: 20px;
+  display: inline;
+}
+
+#threeImages div {
+  width: 33%;
+  height: 375px;
+  display: inline-block;
 }
 
 #threeImages .leftImage {
-  margin-right: 26px;
+  text-align: left;
 }
 
 #threeImages .rightImage {
-  margin-left: 26px;
+  text-align: right;
+}
+
+#threeImages .centerImage {
+  text-align: center;
 }
 
 .photoLeftTextRight {
@@ -60,11 +70,11 @@ main img {
 
 p {
   width: 450px;
-  height: 350px;
+  height: 347px;
   overflow: scroll;
   display: block;
   margin: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -74,6 +84,10 @@ h3 {
 
 button {
   display: block;
+}
+
+button:hover {
+  color: red;
 }
 
 footer {
