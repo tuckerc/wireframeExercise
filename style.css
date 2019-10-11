@@ -1,5 +1,11 @@
 header {
-  background-color: darkgray;
+  background-color: rgb(54, 54, 54);
+}
+
+footer {
+  margin-bottom: 5px;
+  height: 70px;
+  background-color: rgb(54, 54, 54);
 }
 
 .nav {
@@ -13,6 +19,8 @@ header {
   display: inline-block;
   margin: 0 auto;
   padding-right: 10px;
+  font-family: sans-serif;
+  color: rgb(236, 236, 236)
 }
 
 .nav h2 {
@@ -31,6 +39,7 @@ main {
 main img {
   margin: 0 auto;
   display: inline;
+  margin-bottom: 15px;
 }
 
 #threeImages div {
@@ -88,9 +97,4 @@ button {
 
 button:hover {
   color: red;
-}
-
-footer {
-  height: 70px;
-  background-color: #DDD;
 }
